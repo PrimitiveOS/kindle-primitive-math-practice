@@ -11,7 +11,7 @@
     "productivity"
   ],
   "description": "Start with a worked example and practise arithmetic, fractions, or percentages in five-question sessions. Use a large keypad, check equivalent answers, and retry misses. Your skill history stays on your Kindle.",
-  "repo": "https://github.com/DoanNguyenTrong/kindle-primitive-math-practice",
+  "repo": "https://github.com/PrimitiveOS/kindle-primitive-math-practice",
   "licence": "PolyForm-Noncommercial-1.0.0",
   "source": "hosted",
   "icon": "icon.png",
