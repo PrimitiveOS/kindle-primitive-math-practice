@@ -58,7 +58,7 @@ impl View {
     }
 
     fn skills(&self, canvas: &mut Canvas, w: i32) {
-        header(canvas, "Math Practice", "Done");
+        header(canvas, "Math Practice", "Exit");
         canvas.text(
             screen_rect(w, 40, 209, 1184, 75),
             "Choose a skill",
