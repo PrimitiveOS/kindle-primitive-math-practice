@@ -1,35 +1,48 @@
+<div align="center">
+
+<img src="icon.png" alt="Math Practice icon" width="110">
+
 # Math Practice
 
-Math Practice puts a worked example and five short questions on separate Kindle pages. It includes arithmetic, fractions, and percentages.
+**Learn and practise basic math**
 
-- Choose a skill, read the example, then tap **Start**.
-- Use the large keypad for whole numbers, decimals, or fractions such as 2/4. Equivalent values are accepted.
-- Use **Hint** when useful, then **Check** to see the reasoning. **Next** takes you to the next question.
-- After the set, choose **Retry missed** or **New set**.
+[![Release](https://img.shields.io/github/v/release/PrimitiveOS/kindle-primitive-math-practice?label=release)](https://github.com/PrimitiveOS/kindle-primitive-math-practice/releases) [![Licence: PolyForm-Noncommercial-1.0.0](https://img.shields.io/badge/licence-PolyForm--Noncommercial--1.0.0-blue)](LICENSE) [![Store downloads](https://img.shields.io/badge/Store%20downloads-21-brightgreen)](https://primitiveos.github.io/kindle-primitive-catalog/v1/index.json)
 
-Questions are generated offline. The current set, answer draft, and skill history are saved on Kindle.
+[**Download**](https://github.com/PrimitiveOS/kindle-primitive-math-practice/releases/latest) · [**Install guide**](INSTALL.md) · [**Changelog**](CHANGELOG.md)
 
-<table>
-  <tr>
-    <td><img src="docs/images/example.png" alt="A worked fraction example" width="310"></td>
-    <td><img src="docs/images/practice-dark.png" alt="An exercise with a large keypad in dark mode" width="310"></td>
-  </tr>
-</table>
+</div>
 
-The screenshots come from the desktop simulation.
+---
 
-## Install
+Start with a worked example and practise arithmetic, fractions, or percentages in five-question sessions. Use a large keypad, check equivalent answers, and retry misses. Your skill history stays on your Kindle.
 
-Find **Math Practice** in PrimitiveOS Store. [Local build and packaging instructions](INSTALL.md)
+## Quick start
 
-## Test locally
+After setting up PrimitiveOS, open **Store** from Primitive Launcher. Choose **Math Practice** under **Apps**,
+tap **Get**, and open it from the Launcher grid. The [install guide](INSTALL.md) also covers the standalone USB package.
 
-```sh
-cargo test --offline --locked --workspace
-cargo run --offline --locked -p math-practice-desktop -- build/previews
-```
+## Highlights
 
-See `docs/images/` for captured screens. The simulation uses the Launcher fonts from a sibling checkout.
+- Start with a worked example and practise arithmetic, fractions, or percentages in five-question sessions.
+- Use a large keypad, check equivalent answers, and retry misses.
+- Your skill history stays on your Kindle.
+
+## Status
+
+| Device | Status |
+|---|---|
+| Kindle Oasis 3 (1264 × 1680, firmware 5.18.2) | Tested on hardware |
+
+**Current version: 0.1.1.** Changes are in [CHANGELOG.md](CHANGELOG.md).
+
+## Downloads
+
+**21 downloads** from Store, as of 2026-11-21. Store shows the same count on the app page.
+The count is GitHub downloads of this app's release packages, from the [Store catalog](https://primitiveos.github.io/kindle-primitive-catalog/v1/index.json).
+
+## Documentation
+
+[Install guide](INSTALL.md) · [Changelog](CHANGELOG.md)
 
 ## Licence
 
